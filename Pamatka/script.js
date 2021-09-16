@@ -4,7 +4,7 @@ console.log(id);
 const pamatka = pamatky[id];
 
 document.title += pamatka.name; 
-document.getElementById("BG").style.backgroundImage = "url(\"/assets/photos/" + pamatka.pic + "\")"; 
+document.getElementById("BG").style.backgroundImage = "url(\"../assets/photos/" + pamatka.pic + "\")"; 
 document.getElementById("content").innerHTML = pamatka.longDescription; 
 document.getElementById("header").innerHTML = pamatka.name; 
 document.getElementById("subheader").innerHTML = pamatka.shortDescription; 

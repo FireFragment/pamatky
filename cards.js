@@ -3,7 +3,7 @@ var cardsContainer = document.getElementById("cards");
 i = 0;
 
 shuffle(pamatky).forEach(pamatka => {
-    cardsContainer.innerHTML = cardsContainer.innerHTML + "<div onclick=\"openPamatka(pamatky[" + (pamatka.id) + "])\" class=\"card\" style=\"flex-grow:" + (Math.random() * 10) + " \"><head1 style=\"background-image: url('" + pamatka.pic + "')\"> <head1inner>" + pamatka.name + "<\/head1inner><\/head1><underhead>" + pamatka.shortDescription + "<\/underhead><\/div>";
+    cardsContainer.innerHTML = cardsContainer.innerHTML + "<div onclick=\"openPamatka(pamatky[" + (pamatka.id) + "])\" class=\"card\" style=\"flex-grow:" + (Math.random() * 10) + " \"><head1 style=\"background-image: url('assets/photos/" + pamatka.pic + "')\"> <head1inner>" + pamatka.name + "<\/head1inner><\/head1><underhead>" + pamatka.shortDescription + "<\/underhead><\/div>";
 })
 
 // Updating --scrolled CSS variable

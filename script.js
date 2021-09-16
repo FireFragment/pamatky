@@ -4,7 +4,7 @@ function changeBG(BGpamatka_) {
     BGpamatka = BGpamatka_
     document.getElementById("examplepamatkadeschead").innerHTML = BGpamatka.name;
     document.getElementById("examplepamatkadescunderhead").innerHTML = BGpamatka.shortDescription;
-    document.getElementById("BG").style.backgroundImage = "url(\"" + BGpamatka.pic + "\")";
+    document.getElementById("BG").style.backgroundImage = "url(\"assets/photos/" + BGpamatka.pic + "\")";
 }
 
 function updateBG() {
