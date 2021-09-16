@@ -5,6 +5,7 @@ const pamatka = pamatky[id];
 
 document.title += pamatka.name; 
 document.getElementById("BG").style.backgroundImage = "url(\"../assets/photos/" + pamatka.pic + "\")"; 
+document.getElementById("photo-link").href = "../assets/photos/" + pamatka.pic; 
 document.getElementById("content").innerHTML = pamatka.longDescription; 
 document.getElementById("header").innerHTML = pamatka.name; 
 document.getElementById("subheader").innerHTML = pamatka.shortDescription; 

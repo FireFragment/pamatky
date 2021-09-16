@@ -21,7 +21,9 @@ function initMap(pamatky, markerImg) {
         }
 
         // duletize je prirazeni id jednotlivemu markeru - vlastni id, jinak se generuje nahodne
+        //var znacka = new SMap.Marker(c, marker.id, options);
         var znacka = new SMap.Marker(c, marker.id, options);
+        console.log(marker.id);
         souradnice.push(c);
         vrstva.addMarker(znacka);
     });
@@ -38,8 +40,6 @@ function initMap(pamatky, markerImg) {
         // vybrany marker
         var marker = e.target;
         var id = marker.getId();
-        // zobrazime jeho jmeno - parovani vybraneho markeru pomoci jeho id a nasich vstupnich dat
-        console.log(id);
-        openPamatkaID(e.target.getId());
+        openPamatkaID(id);
     });
 }

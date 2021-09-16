@@ -94,17 +94,17 @@ aside > * {
     margin-left: 0;
 }
 
-#sources a {
-    color: inherit;
+#traffic a {
     margin-top: 30px;
     display: block;
+}
+.card a {
+    color: inherit;
     transition: opacity 0.2s;
 }
-#sources a:hover {
+.card a:hover {
     opacity: 70%;
-    
 }
-
 
 #BG {
     position: fixed;
