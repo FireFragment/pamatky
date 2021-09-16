@@ -4,27 +4,6 @@ var pamatky = [
     id: 0,
     coords: "49�56'21.57\"N,14�11'17.96\"E",
     pic: "https://www.hrad-karlstejn.cz/website/var/tmp/image-thumbnails/90000/92118/thumb__OgTagImage/Karlstejn_01.jpeg",
-    minorPics: [
-        {
-            name: "Totálně random obrázek",
-            src: "https://source.unsplash.com/random",
-            description: "Doufej ve štěstí, a třeba se ti bude i líbit!",
-            attribution: "License Unsplash, takže tu vlastně nemusí bejt nic!",
-            author: "Ne ja"
-        },
-        {
-            name: "Histerický obraz",
-            src: "https://source.unsplash.com/random?history"
-        },
-        {
-            name: "Nějakej pěknej zámek",
-            src: "https://source.unsplash.com/random?castle"
-        },
-        {
-            name: "Staroch!",
-            src: "https://source.unsplash.com/random?old"
-        }
-    ],
     sources: [
         "https://www.turistika.cz/mista/farni-kostel-sv-bartolomeje-praha-kyje/detail"
     ],
@@ -109,8 +88,7 @@ var pamatky = [
     ],
     sources: [
         "https://www.hrady.cz/palac-dum-stara-hospoda"
-    ],
-    minorPics: [],
+    ]
 }, {
     sources: [
         "https://www.hrady.cz/kostel-sv-jiri-praha-9-hloubetin"
@@ -122,7 +100,6 @@ var pamatky = [
     web: "www.kost-hrad.cz",
     shortDescription: "Hloubětín, Praha 14",
     longDescription: "Gotický farní kostel s první zmínkou z roku 1217. Kostel byl stejně jako celý Hloubětín v majetku řádu křižovníků s červenou hvězdou. Hloubětín se až do začátku 20. století jmenoval Hloupětín, ale na přání občanů se přejmenoval na Hloubětín. Místní fara zanikla po husitských válkách, ale byla obnovena v souvislosti s přestavbou kostela v 17. století. Věž až do roku 1847 stála v místech dnešní sakristie, kdy byla stržena a nová věž byla postavena na opačné straně kostela. Kostel je přístupný během noci kostelů, prohlédnout si ho také můžete před nebo po bohoslužbě.",
-    minorPics: [],
     traffic: [
         {
             method: "Autobus",
@@ -178,7 +155,6 @@ var pamatky = [
     pic: "https://cdn.xsd.cz/original/1cab2e0f1db83227ae7d545414749c14.jpg",
     shortDescription: "Praha 14",
     longDescription: "Novogotický zámeček postavený v anglickém stylu stojí od konce 19. století vedle kostela sv. Jiří v Hloubětíně. Dříve na tomto místě stávala tvrz. Před 2. sv. Válkou zámeček vlastnila židovská obec, které byl navrácen po sametové revoluci. V současné době je zámeček pronajímán soukromému zdravotnickému zařízení. Díky tomu je zámeček nyní veřejnosti nepřístupný, je možné se projít okolo.",
-    minorPics: [],
     sources: [
         "http://www.stredoceske-zamky.cz/zamekhloubetin.html",
         "https://www.hrady.cz/kostel-sv-jiri-praha-9-hloubetin"
