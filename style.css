@@ -1,0 +1,212 @@
+﻿@import url("global.css");
+
+:root {
+    --scrolled   : 0px;
+    --scrolledNum: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin     : 0;
+    font-family: var(--font);
+    background : black;
+
+    /* Will be overwrited after full page load */
+    display    : none;
+}
+
+.welcome {
+    height         : 80vh;
+    display        : flex;
+    align-items    : center;
+    text-align     : center;
+    justify-content: center;
+    color          : white;
+    text-shadow    : 0 0 10px black;
+    opacity        : calc(1 - var(--scrolledNum) / 300);
+}
+
+.BG {
+    position                 : fixed;
+    top                      : 0;
+    left                     : 0;
+    z-index                  : -3;
+    height                   : 100vh;
+    width                    : 100vw;
+    background-size          : cover;
+    animation                : introBG 0.5s;
+    animation-timing-function: cubic-bezier(.16, .61, .13, .99);
+    filter                   : blur(min(calc(var(--scrolled)/10), 15px));
+    transform                : scale(min(calc(var(--scrolledNum)/1000 + 1), 1.3));
+}
+@keyframes introBG {
+    from {
+        transform: scale(1.2);
+        opacity  : 0;
+    }
+}
+
+.welcome bigtext {
+    font-size                : 6vmax;
+    animation                : introBigtext 0.5s;
+    animation-timing-function: cubic-bezier(.16, .61, .13, .99);
+    font-weight              : bold;
+}
+
+@keyframes introBigtext {
+    from {
+        font-size: 5vmax;
+        opacity  : 0;
+    }
+}
+
+.welcome undertext {
+    font-size   : 4vmin;
+    font-variant: small-caps;
+}
+
+.welcome .examplepamatkadesc {
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding         : 10px;
+    cursor          : pointer;
+    text-align      : left;
+}
+
+.welcome .examplepamatkadesc underhead {
+    font-size: 0.9vmax;
+}
+
+.welcome .examplepamatkadesc underhead a {
+    color          : white;
+    opacity        : 0.7;
+    text-decoration: underline;
+}
+.welcome .examplepamatkadesc underhead a:hover {
+    opacity: 0.5;
+}
+
+.welcome .examplepamatkadesc .header {
+    font-size: 1.5vmax;
+}
+
+.welcome .examplepamatkadesc .header #examplepamatkadeschead {
+    font-weight: bolder;
+}
+
+head1 {
+    font-size: 10vax;
+
+    display       : block;
+    padding-top   : 5vh;
+    padding-bottom: 5vh;
+}
+
+underhead {
+    font-size: 1.5vw;
+    display  : block;
+}
+
+.cards {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+    margin         : 2vw;
+}
+
+.cards .card {
+    flex      : 1 1 25vh;
+    background: white;
+    margin    : 1vw;
+    box-shadow: 0px 0px 20px black;
+    transform : scale(1);
+    transition: all 0.5s;
+}
+
+.cards .card:hover {
+    box-shadow: 0px 0px 50px black;
+}
+
+.cards:not(.navigation-cards) .card:hover {
+    transform: scale(1.05);
+}
+
+.cards div head1 {
+    padding        : 0;
+    background     : no-repeat;
+    background-size: cover;
+    font-weight    : 800;
+    font-size      : 3vw;
+}
+
+.cards div head1 .icon {
+    font-size     : 3vw;
+    vertical-align: middle;
+}
+
+.cards:not(.navigation-cards) div head1 {
+    color: white;
+}
+
+.cards div underhead {
+    padding-top   : 1vw;
+    padding-bottom: 1vw;
+}
+
+.cards:not(.navigation-cards) div underhead,
+.cards:not(.navigation-cards) div head1inner {
+    padding: 1vw;
+}
+
+.cards div head1inner {
+    padding-top   : 5vh;
+    padding-bottom: 5vh;
+    display       : block;
+}
+
+.cards:not(.navigation-cards) .card {
+    min-width: 25vw;
+    cursor   : pointer;
+}
+
+.cards:not(.navigation-cards) div head1inner {
+    background        : rgb(0, 0, 0);
+    background        : linear-gradient(0deg, rgba(0, 0, 0, 0.9979342078628326) 0%, rgba(0, 0, 0, 0) 100%);
+    -webkit-box-shadow: inset 0px 0px 0px 0 rgba(255, 255, 255, 0.49);
+    box-shadow        : inset 0px 0px 0px 0 rgba(255, 255, 255, 0.49);
+    transition        : box-shadow 0.2s;
+    padding-top       : 30vh;
+}
+
+.cards:not(.navigation-cards) div:hover head1inner {
+    -webkit-box-shadow: inset 0px 0px 0px 9px rgba(255, 255, 255, 0.49);
+    box-shadow        : inset 0px 0px 0px 9px rgba(255, 255, 255, 0.49);
+    background-size   : cover 150%;
+}
+
+.navigation-cards .card {
+    padding: 2vw;
+}
+
+.icon {
+    font-variant: normal !important;
+}
+
+@media (orientation:horizontal) {
+    head1 {
+        font-size: 3vw;
+    }
+
+    underhead {
+        font-size: 1.5vw !important;
+    }
+}
+
+.find {
+    display: none;
+}
