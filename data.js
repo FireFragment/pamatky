@@ -3,7 +3,7 @@ var pamatky = [
     name: "Kostel sv. Bartolom\u011Bje",
     id: 0,
     coords: "49�56'21.57\"N,14�11'17.96\"E",
-    pic: "https://www.hrad-karlstejn.cz/website/var/tmp/image-thumbnails/90000/92118/thumb__OgTagImage/Karlstejn_01.jpeg",
+    pic: "bartolomej.png",
     sources: [
         "https://www.turistika.cz/mista/farni-kostel-sv-bartolomeje-praha-kyje/detail"
     ],
