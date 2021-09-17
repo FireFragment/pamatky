@@ -17,7 +17,8 @@ function initMap(pamatky, markerImg) {
         var options = {
             url: markerImg,
             title: marker.name,
-            anchor: { left: 30, bottom: 9 }  /* Ukotvení značky za bod uprostřed dole */
+            anchor: { left: 30, bottom: 9 },  /* Ukotvení značky za bod uprostřed dole */
+            id: marker.id
         }
 
         // duletize je prirazeni id jednotlivemu markeru - vlastni id, jinak se generuje nahodne
@@ -27,6 +28,8 @@ function initMap(pamatky, markerImg) {
         souradnice.push(c);
         vrstva.addMarker(znacka);
     });
+    
+    console.log(vrstva);
 
     // zobrazime a povolime vrstvu - pokud by se vrstva povolila pred vkladanim markeru, tak by se s kazdym vlozenym markerem prekreslovala mapa a pocitaly pozice vsech markeru
     m.addLayer(vrstva);                          /* Přidat ji do mapy */
@@ -37,9 +40,9 @@ function initMap(pamatky, markerImg) {
 
     // poslouchani na kliknuti u markeru
     m.getSignals().addListener(this, "marker-click", function (e) {
-        // vybrany marker
-        var marker = e.target;
-        var id = marker.getId();
-        openPamatkaID(id);
+        console.log(e);
+        
+        //var marker = e.target.marker.id;
+        openPamatkaID(e.target._options.id);
     });
 }
