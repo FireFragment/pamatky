@@ -16,3 +16,7 @@
     --font: Gilroy;
     --small-font: "EB Garamond";
 }
+
+html {
+    background: white;
+}
