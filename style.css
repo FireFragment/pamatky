@@ -12,7 +12,6 @@ html {
 body {
     margin     : 0;
     font-family: var(--font);
-    background : black;
 
     /* Will be overwrited after full page load */
     display    : none;
