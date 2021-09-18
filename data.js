@@ -156,8 +156,7 @@ var pamatky = [
     shortDescription: "Praha 14",
     longDescription: "Novogotický zámeček postavený v anglickém stylu stojí od konce 19. století vedle kostela sv. Jiří v Hloubětíně. Dříve na tomto místě stávala tvrz. Před 2. sv. Válkou zámeček vlastnila židovská obec, které byl navrácen po sametové revoluci. V současné době je zámeček pronajímán soukromému zdravotnickému zařízení. Díky tomu je zámeček nyní veřejnosti nepřístupný, je možné se projít okolo.",
     sources: [
-        "http://www.stredoceske-zamky.cz/zamekhloubetin.html",
-        "https://www.hrady.cz/kostel-sv-jiri-praha-9-hloubetin"
+        "http://www.stredoceske-zamky.cz/zamekhloubetin.html"
     ],
     traffic: [
         {
