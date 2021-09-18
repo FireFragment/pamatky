@@ -2,7 +2,7 @@ var pamatky = [
 {
     name: "Kostel sv. Bartolom\u011Bje",
     id: 0,
-    coords: "49�56'21.57\"N,14�11'17.96\"E",
+    coords: "50.0977456N, 14.5481006E",
     pic: "bartolomej.png",
     sources: [
         "https://www.turistika.cz/mista/farni-kostel-sv-bartolomeje-praha-kyje/detail"
@@ -95,7 +95,7 @@ var pamatky = [
     ],
     name: "Kostel sv. Jiří",
     id: 2,
-    coords: "50�29'24.83\"N,15�8'6.38\"E",
+    coords: "50.0408678N, 14.7556331E",
     pic: "kostel_jiri.png",
     web: "www.kost-hrad.cz",
     shortDescription: "Hloubětín, Praha 14",
@@ -151,7 +151,7 @@ var pamatky = [
 {
     name: "Hloubětínský zámeček",
     id: 3,
-    coords: "50.0835494N, 14.4341414E",
+    coords: "50.1031681N, 14.5339706E",
     pic: "https://cdn.xsd.cz/original/1cab2e0f1db83227ae7d545414749c14.jpg",
     shortDescription: "Praha 14",
     longDescription: "Novogotický zámeček postavený v anglickém stylu stojí od konce 19. století vedle kostela sv. Jiří v Hloubětíně. Dříve na tomto místě stávala tvrz. Před 2. sv. Válkou zámeček vlastnila židovská obec, které byl navrácen po sametové revoluci. V současné době je zámeček pronajímán soukromému zdravotnickému zařízení. Díky tomu je zámeček nyní veřejnosti nepřístupný, je možné se projít okolo.",
@@ -208,15 +208,43 @@ var pamatky = [
     ]
 },
 {
-    name: "Brno",
+    name: "Zámek a zámecký park Hostavice",
     id: 4,
-    coords: "49.2002211N, 16.6078411E",
-    pic: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Brno_-_Cathedral_of_Saints_Peter_and_Paul_III.jpg/330px-Brno_-_Cathedral_of_Saints_Peter_and_Paul_III.jpg",
-    web: "www.brno.cz",
-    shortDescription: "Lorem ipsum.",
-    longDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius sit amet mattis vulputate enim nulla. Sem viverra aliquet eget sit amet. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Urna nec tincidunt praesent semper feugiat nibh. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Urna molestie at elementum eu facilisis sed odio morbi quis. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Id nibh tortor id aliquet lectus proin nibh nisl.\r\n\r\nQuis varius quam quisque id diam. Dui ut ornare lectus sit amet est placerat in. Imperdiet sed euismod nisi porta lorem. Arcu dictum varius duis at consectetur lorem. Commodo ullamcorper a lacus vestibulum. Quam quisque id diam vel quam elementum. Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Massa tincidunt dui ut ornare. Morbi tristique senectus et netus et malesuada fames ac. Fermentum leo vel orci porta non. Egestas maecenas pharetra convallis posuere. Nec ultrices dui sapien eget mi proin. Ornare arcu dui vivamus arcu felis bibendum ut. Leo vel orci porta non pulvinar neque laoreet suspendisse.\r\n\r\nDiam maecenas sed enim ut. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Ultrices in iaculis nunc sed augue lacus. Id donec ultrices tincidunt arcu non sodales neque sodales ut. Egestas integer eget aliquet nibh praesent tristique. Sollicitudin aliquam ultrices sagittis orci a. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Consequat ac felis donec et odio pellentesque diam volutpat. Malesuada fames ac turpis egestas integer eget aliquet nibh. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Ultrices sagittis orci a scelerisque purus semper eget.\r\n\r\nSed id semper risus in hendrerit. Elementum nibh tellus molestie nunc non. Nibh nisl condimentum id venenatis a. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Cras pulvinar mattis nunc sed blandit libero volutpat. In ante metus dictum at tempor commodo ullamcorper a. Felis donec et odio pellentesque diam volutpat commodo sed. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Nulla at volutpat diam ut venenatis tellus in. Ligula ullamcorper malesuada proin libero nunc consequat. Faucibus a pellentesque sit amet porttitor eget. In nulla posuere sollicitudin aliquam. Vulputate eu scelerisque felis imperdiet. Justo laoreet sit amet cursus sit amet dictum sit. Sociis natoque penatibus et magnis dis parturient. Varius quam quisque id diam vel quam elementum pulvinar. Proin sed libero enim sed faucibus. At quis risus sed vulputate.\r\n\r\nFaucibus vitae aliquet nec ullamcorper. Bibendum enim facilisis gravida neque convallis a cras semper. Turpis egestas pretium aenean pharetra magna. Vulputate ut pharetra sit amet aliquam id diam. Lectus quam id leo in. Purus in massa tempor nec feugiat. Nulla aliquet porttitor lacus luctus accumsan. Velit ut tortor pretium viverra. Ullamcorper a lacus vestibulum sed. Duis ultricies lacus sed turpis tincidunt. Interdum varius sit amet mattis vulputate enim nulla. Tempus egestas sed sed risus pretium quam. Dictum at tempor commodo ullamcorper a. Urna condimentum mattis pellentesque id."
-
-}
+    coords: "50.0911353N, 14.5609353E",
+    pic: "hostavice.png",
+    shortDescription: "Praha 14",
+    longDescription: "Zámek byl vybudován v 2. polovině 19. Století jako součást zdejšího velkostatku. V 30. letech plánoval Tomáš Baťa postavit v Hostavicích městskou čtvrť podobnou jako ve Zlíně s veškerou občanskou vybaveností. Baťova firma pozemky 2 roky po jeho smrti koupila, avšak projekt se neuskutečnil. Po 2. sv. válce byla v prostorách základní škola, nyní je zde soukromá škola. Zámek je tedy veřejnosti nepřístupný, ale k příjemně strávenému odpoledni vybízí nedávno revitalizovaný park s množstvím zeleně, laviček, hřišť a kavárnou.",
+    sources: [
+        "https://www.hrady.cz/zamek-hostavice-praha-9-hostavice/texty?tid=45060&pos=1000"
+    ],
+    traffic: [
+        {
+            method: "Autobus",
+            ways: [
+                {
+                    lines: [110,224,259],
+                    stop: "Hostavice",
+                    distance: "4 minuty pěšky"
+                },
+                {
+                    lines: [110,171,181,259],
+                    stop: "Kyje",
+                    distance: "25 minut pěšky"
+                }
+            ]
+        },
+        {
+            method: "Vlak",
+            ways: [
+                {
+                    lines: ["S1"],
+                    stop: "Praha-Dolní Počernice",
+                    distance: "12 minut pěšky"
+                }
+            ]
+        }
+    ]
+},
 ];
 
 
