@@ -29,5 +29,5 @@ function sourceToHTML(source) {
 }
 
 function home() {
-    window.location.href = "../index.html?picId=" + id;
+    window.location.href = "../index.html";
 }
