@@ -49,7 +49,7 @@ var pamatky = [
 }, {
     name: "Star\u00E1 hospoda v Hloub\u011Bt\u00EDn\u011B",
     id: 1,
-    coords: "50�2'16.36\"N,13�52'18.59\"E",
+    coords: "50.1056861N, 14.5355433E",
     pic: "hospoda.png",
     web: "/www.hrad-krivoklat.cz",
     shortDescription: "Hloubětín, Praha 14",
@@ -95,7 +95,7 @@ var pamatky = [
     ],
     name: "Kostel sv. Jiří",
     id: 2,
-    coords: "50.0408678N, 14.7556331E",
+    coords: "50.1034450N, 14.5346219E",
     pic: "kostel_jiri.png",
     web: "www.kost-hrad.cz",
     shortDescription: "Hloubětín, Praha 14",
