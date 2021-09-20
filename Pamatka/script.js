@@ -9,7 +9,7 @@ document.getElementById("photo-link").href = "../assets/photos/" + pamatka.pic;
 document.getElementById("content").innerHTML = pamatka.longDescription; 
 document.getElementById("header").innerHTML = pamatka.name; 
 document.getElementById("subheader").innerHTML = pamatka.shortDescription; 
-document.getElementById("sources").innerHTML = pamatka.sources.map(sourceToHTML).join("");
+document.getElementById("sources").innerHTML = pamatka.sources.map(sourceToHTML).join("<br><br>");
 if (pamatka.picSource)
     document.getElementById("picSource").innerHTML = pamatka.picSource;
 
