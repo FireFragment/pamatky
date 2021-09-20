@@ -375,7 +375,7 @@ var pamatky = [
     name: "Kostel sv. Františka z Assisi",
     id: 9,
     coords: "50.0407542N, 14.4477886E",
-    pic: "frantisek0.png",
+    pic: "frantisek.png",
     shortDescription: "Praha 4",
     longDescription: "Obdélný dřevěný římskokatolický kostel se sedlovou střechou, na které se nachází malá zvonička v Krči vznikl v době Protektorátu Čechy a Morava. Když Spolek pro vystavění a udržování katolického kostela rozhodl, že kostel bude na pozemku Na Habrovce, začal ho navrhovat architekt Jaroslav Čermák s pomocí Emanuela Hrušky v letech 1940–1941. 8. prosince 1941 začalo býti budováno provizorium, které bylo hotové během dvou týdnů. Ještě v roce 1941 stihl být kostel vysvěcen. Když válka skončila, vznikly plány na přestavění kostela na kamenný, to však politická situace v Československu nedovolila. Přesto v 60. letech 20. století architekt Vladimír Hladík udělal drobné úpravy, při nichž použil cihlové zdivo.",
     sources: [
