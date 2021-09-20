@@ -10,7 +10,7 @@ document.getElementById("content").innerHTML = pamatka.longDescription;
 document.getElementById("header").innerHTML = pamatka.name; 
 document.getElementById("subheader").innerHTML = pamatka.shortDescription; 
 document.getElementById("sources").innerHTML = pamatka.sources.map(sourceToHTML).join("");
-if (picSource)
+if (pamatka.picSource)
     document.getElementById("picSource").innerHTML = pamatka.picSource;
 
 if (!pamatka.sources)
