@@ -292,6 +292,122 @@ var pamatky = [
         }
     ]
 },
+{
+    name: "Kostel sv. Petra a Pavla",
+    id: 7,
+    coords: "50.0320764N, 14.3123647E",
+    pic: "petr_pavel.png",
+    shortDescription: "Praha 13 - Řeporyje",
+    longDescription: "Římskokatolický kostel sv. Jana a Pavla v Krtni je jedinou stavbou, která zůstala po zániku vesnice Krteň v důsledku Třicetileté války. Byl posatven ve druhé čtvrtině 13. století, ale nejstarší písmená zmínka je až z roku 1352. Později proběhly však ještě některé úpravy. Roku 1575 byl rozšířen o boční loď, v roce 1699 byla přistavěna sakristie, v letech 1732-1734 byla zvýšena jeho věž a v roce 1890 byl kostel podle A. Živného novorománsky přestavěn. Interiér tvoří mimo jiné i nástěnné malby pocházející ze 13. století. Kostelík stojí v krajině úplně osamocen. ",
+    sources: [
+        "https://www.prahareporyje.cz/mestska-cast/80-kostel-sv-petra-a-pavla-v-reporyjich",
+        "https://www.hrady.cz/kostel-sv-petra-a-pavla-praha-5-reporyje "
+    ],
+    traffic: [
+        {
+            method: "Metro",
+            ways: [
+                {
+                    lines: ["B"],
+                    stop: "Stodůlky",
+                    distance: "33 minut pěšky"
+                }                
+            ]
+        },
+        {
+            method: "Autobus",
+            ways: [
+                {
+                    lines: [180],
+                    stop: "Obchodní centrum Zličín",
+                    distance: "24 minut pěšky"
+                },
+                {
+                    lines: [194, 902],
+                    stop: "Třebonice",
+                    distance: "18 minut pěšky"
+                }     
+            ]
+        }
+    ]
+},
+
+{
+    name: "Kostel sv. Jana a Pavla",
+    id: 8,
+    coords: "50.0418356N, 14.2921036E",
+    pic: "petr_pavel.png",
+    shortDescription: "Praha 13 - Řeporyje",
+    longDescription: "Římskokatolický kostel sv. Jana a Pavla v Krtni je jedinou stavbou, která zůstala po zániku vesnice Krteň v důsledku Třicetileté války. Byl posatven ve druhé čtvrtině 13. století, ale nejstarší písmená zmínka je až z roku 1352. Později proběhly však ještě některé úpravy. Roku 1575 byl rozšířen o boční loď, v roce 1699 byla přistavěna sakristie, v letech 1732-1734 byla zvýšena jeho věž a v roce 1890 byl kostel podle A. Živného novorománsky přestavěn. Interiér tvoří mimo jiné i nástěnné malby pocházející ze 13. století. Kostelík stojí v krajině úplně osamocen.",
+    sources: [
+        "https://www.hrady.cz/kostel-sv-jana-a-pavla-krten/texty?tid=3230&pos=1000"
+    ],
+    traffic: [
+        {
+            method: "Metro",
+            ways: [
+                {
+                    lines: ["B"],
+                    stop: "Stodůlky",
+                    distance: "33 minut pěšky"
+                }                
+            ]
+        },
+        {
+            method: "Autobus",
+            ways: [
+                {
+                    lines: [180],
+                    stop: "Obchodní centrum Zličín",
+                    distance: "24 minut pěšky"
+                },
+                {
+                    lines: [194, 902],
+                    stop: "Třebonice",
+                    distance: "18 minut pěšky"
+                }     
+            ]
+        }
+    ]
+},
+
+{
+    name: "Kostel sv. Františka z Assisi",
+    id: 9,
+    coords: "50.0407542N, 14.4477886E",
+    pic: "frantisek0.png",
+    shortDescription: "Praha 4",
+    longDescription: "Obdélný dřevěný římskokatolický kostel se sedlovou střechou, na které se nachází malá zvonička v Krči vznikl v době Protektorátu Čechy a Morava. Když Spolek pro vystavění a udržování katolického kostela rozhodl, že kostel bude na pozemku Na Habrovce, začal ho navrhovat architekt Jaroslav Čermák s pomocí Emanuela Hrušky v letech 1940–1941. 8. prosince 1941 začalo býti budováno provizorium, které bylo hotové během dvou týdnů. Ještě v roce 1941 stihl být kostel vysvěcen. Když válka skončila, vznikly plány na přestavění kostela na kamenný, to však politická situace v Československu nedovolila. Přesto v 60. letech 20. století architekt Vladimír Hladík udělal drobné úpravy, při nichž použil cihlové zdivo.",
+    sources: [
+        "http://www.michlehabrovka.cz/node/18",
+        "https://pamatkovykatalog.cz/kostel-sv-frantiska-z-assisi-15657865",
+        "https://www.hrady.cz/kostel-sv-frantiska-z-assisi-praha-4-krc/texty?tid=41892&pos=450",
+        "http://www.sfr.cz/clanek_poutnik.aspx?a=966",
+        "http://www.schnablova.net/Sakralni%20architektura/Praha/Fotky/414.jpg"
+    ],
+    traffic: [
+        {
+            method: "Metro",
+            ways: [
+                {
+                    lines: ["C"],
+                    stop: "Budějovická",
+                    distance: "10 minut pěšky"
+                }                
+            ]
+        },
+        {
+            method: "Autobus",
+            ways: [
+                {
+                    lines: [121, 124, 134, 193, 904],
+                    stop: "Antala Staška",
+                    distance: "6 minut pěšky"
+                } 
+            ]
+        }
+    ]
+}
 ];
 
 
