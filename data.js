@@ -152,7 +152,7 @@ var pamatky = [
     name: "Hloubětínský zámeček",
     id: 3,
     coords: "50.1031681N, 14.5339706E",
-    pic: "https://cdn.xsd.cz/original/1cab2e0f1db83227ae7d545414749c14.jpg",
+    pic: "", // TODO: Add image
     shortDescription: "Praha 14",
     longDescription: "Novogotický zámeček postavený v anglickém stylu stojí od konce 19. století vedle kostela sv. Jiří v Hloubětíně. Dříve na tomto místě stávala tvrz. Před 2. sv. Válkou zámeček vlastnila židovská obec, které byl navrácen po sametové revoluci. V současné době je zámeček pronajímán soukromému zdravotnickému zařízení. Díky tomu je zámeček nyní veřejnosti nepřístupný, je možné se projít okolo.",
     sources: [
@@ -238,6 +238,54 @@ var pamatky = [
                 {
                     lines: ["S1"],
                     stop: "Praha-Dolní Počernice",
+                    distance: "12 minut pěšky"
+                }
+            ]
+        }
+    ]
+},
+{
+    name: "Kostel sv. Vojtěcha v Libni",
+    id: 5,
+    coords: "50.1088842N, 14.4710600E",
+    pic: "liben_kostel.png",
+    picSource: "Fotografie z internetu.",
+    shortDescription: "Libeň, Praha 8",
+    longDescription: "Patří mezi dominanty Libně. Byl postaven roku 1905 v secesním stylu kvůli nedostatečné kapacitě kaple libeňského zámku. Kostel mnohokrát postihly živelné pohromy i člověkem způsobené bombardování. V roce 1939 byl do kostela přenesen oltář Nejsvětější trojice. V letech 1996-2001 prošel kompletní rekonstrukcí. Je přístupný příležitostně.",
+    sources: [
+        "https://www.praha8.cz/kostel-sv-vojtecha.html"
+    ],
+    traffic: [
+        {
+            method: "Tramvaj",
+            ways: [
+                {
+                    lines: [3, 10, 24],
+                    stop: "Libeňský zámek",
+                    distance: "12 minut pěšky"
+                }
+            ]
+        }
+    ]
+},
+{
+    name: "Libeňský zámek",
+    id: 6,
+    coords: "50.1088842N, 14.4710600E", // TODO: fix coordinates
+    pic: "liben_zamek.png",
+    picSource: "Fotografie z internetu.",
+    shortDescription: "Libeň, Praha 8",
+    longDescription: "Na místě zámku stávala gotická tvrz poprvé zmiňována společně s osadou roku 1363. Na konci 16. století byl na jejím místě postaven renesanční zámek. V roce 1608 zde byl podepsán Libeňský mír mezi Rudolfem II. a jeho bratrem Matyášem, při kterém panovník udělal velké ústupky ve prospěch Matyáše. Za třicetileté války byl mnohokrát poničen. Od 2. poloviny 17. století byl na 220 let sídlem pražských primátorů. V letech 1769-70 se uskutečnila rozsáhlá přestavba. Zámek navštívila císařovna Marie Terezie i císaři Josef II., František I. a Leopold II. Na konci 19. století zde byl umístěn ústav pro mravně narušenou mládež. Později zde sídlil národní výbor. Dnes se v zámku konají koncerty a výstavy.",
+    sources: [
+        "https://m.praha8.cz/libensky-zamek.html"
+    ],
+    traffic: [
+        {
+            method: "Tramvaj",
+            ways: [
+                {
+                    lines: [3, 10, 24],
+                    stop: "Libeňský zámek",
                     distance: "12 minut pěšky"
                 }
             ]
