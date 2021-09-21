@@ -152,7 +152,7 @@ var pamatky = [
     name: "Hloubětínský zámeček",
     id: 3,
     coords: "50.1031681N, 14.5339706E",
-    pic: "", // TODO: Add image
+    pic: "hloubetin_zamek.jpeg",
     shortDescription: "Praha 14",
     longDescription: "Novogotický zámeček postavený v anglickém stylu stojí od konce 19. století vedle kostela sv. Jiří v Hloubětíně. Dříve na tomto místě stávala tvrz. Před 2. sv. Válkou zámeček vlastnila židovská obec, které byl navrácen po sametové revoluci. V současné době je zámeček pronajímán soukromému zdravotnickému zařízení. Díky tomu je zámeček nyní veřejnosti nepřístupný, je možné se projít okolo.",
     sources: [
@@ -271,7 +271,7 @@ var pamatky = [
 {
     name: "Libeňský zámek",
     id: 6,
-    coords: "50.1088842N, 14.4710600E", // TODO: fix coordinates
+    coords: "50.1076061N, 14.4713844E",
     pic: "liben_zamek.png",
     picSource: "Fotografie z internetu.",
     shortDescription: "Libeň, Praha 8",
