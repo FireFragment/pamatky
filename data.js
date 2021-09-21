@@ -407,6 +407,40 @@ var pamatky = [
             ]
         }
     ]
+},
+
+{
+    name: "Kostel sv. Jakuba Staršího",
+    id: 10,
+    coords: "50.0492139N, 14.3127261E",
+    pic: "jakub_starsi.png",
+    shortDescription: "Praha 13",
+    longDescription: "Na místě římskokatolického novogotického kostela ve Stodůlkách stálpůvodně románský kostel z 12 století. První písemná zmínka pochází z roku 1292. Prvním farářem byl Jan Heřman. Pro malou kapacitu lidí v kostele byl však kostel zbořen a na jeho místě byl v letech 1901-1903 postaven již současný pseudogotický pseudogotický kostel. Z původního románského kostela zbyl kamenný sanktuář.",
+    sources: [
+        "https://www.hrady.cz/kostel-sv-jakuba-starsiho-praha-5-stodulky"
+    ],
+    traffic: [
+        {
+            method: "Metro",
+            ways: [
+                {
+                    lines: ["B"],
+                    stop: "Stodůlky",
+                    distance: "10 minut pěšky"
+                }                
+            ]
+        },
+        {
+            method: "Autobus",
+            ways: [
+                {
+                    lines: [137, 174, 266, 902],
+                    stop: "Kovářova-KD Mlejn",
+                    distance: "9 minut pěšky"
+                } 
+            ]
+        }
+    ]
 }
 ];
 
