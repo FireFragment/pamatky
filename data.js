@@ -250,7 +250,7 @@ var pamatky = [
     id: 5,
     coords: "50.1088842N, 14.4710600E",
     pic: "liben_kostel.png",
-    picSource: "Fotografie z internetu.",
+    picSource: "turistika.cz",
     shortDescription: "Libeň, Praha 8",
     longDescription: "Patří mezi dominanty Libně. Byl postaven roku 1905 v secesním stylu kvůli nedostatečné kapacitě kaple libeňského zámku. Kostel mnohokrát postihly živelné pohromy i člověkem způsobené bombardování. V roce 1939 byl do kostela přenesen oltář Nejsvětější trojice. V letech 1996-2001 prošel kompletní rekonstrukcí. Je přístupný příležitostně.",
     sources: [
@@ -526,6 +526,93 @@ var pamatky = [
         ]
       }
    ]
+},
+
+{
+   "id":12,
+   "name":"Vila Jitřenka",
+   "longDescription":"Původně lovecký letohrádek byl postaven v roce 1738 v barokním slohu. Patřil, stejně jako okolní pozemky, svobodnému pánu Janu z Vrbna. V roce 1770 dostal číslo popisné 141. Majitelé, kteří se v průběhu času měnili, pořádali hony na zvěř v okolních lesích. V 19. století byl přestavěn ve slohu klasicismu. Později splynul s novou městskou zástavbou Vršovic, od roku 1922 součástí Prahy. V roce 2005 prošla stavba rekonstrukcí.\r\n\r\n",
+   "shortDescription":"Vršovice, Praha 10",
+   "coords":"50.0678422N, 14.4518609E",
+   "sources":[
+      "https://pamatkovykatalog.cz/vila-13236896",
+      "https://cs.m.wikipedia.org/wiki/Vila_Jit%C5%99enka",
+      "https://psnkupuje.cz/clanek-blogu/vila-jitrenka"
+   ],
+   "traffic":[
+      {
+         "method":"Tramvaj",
+         "ways":[
+            {
+               "lines":[
+                  "4",
+                  "13",
+                  "22"
+               ],
+               "stop":"Vršovické náměstí",
+               "distance":"5 minut pěšky"
+            },
+            {
+               "lines":[
+                  "6",
+                  "7",
+                  "19"
+               ],
+               "stop":"Bohemians",
+               "distance":"6 minut pěšky"
+            },
+            {
+               "lines":[
+                  "6",
+                  "7",
+                  "19"
+               ],
+               "stop":"Nádraží Vršovice",
+               "distance":"6 minut pěšky"
+            }
+         ]
+      },
+      {
+         "method":"Autobus",
+         "ways":[
+            {
+               "lines":[
+                  "124",
+                  "139"
+               ],
+               "stop":"Ukrajinská",
+               "distance":"5 minut pěšky"
+            },
+            {
+               "lines":[
+                  "124",
+                  "139"
+               ],
+               "stop":"Bohemians",
+               "distance":"6 minut pěšky"
+            },
+            {
+               "lines":[
+                  "193"
+               ],
+               "stop":"Nádraží Vršovice",
+               "distance":"6 minut pěšky"
+            }
+         ]
+      },
+            {
+        method: "Vlak",
+        ways: [
+          {
+            "stop": "Praha, Vršovice",
+            lines: ["S8", "S9", "S88", "R17", "R49"],
+            distance: "8 minut pěšky"
+          }
+        ]
+      }
+   ],
+   "pic":"jitrenka.png",
+   "picSource":"https://psnkupuje.cz/clanek-blogu/vila-jitrenka"
 }
 
 ]
