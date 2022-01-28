@@ -442,7 +442,90 @@ var pamatky = [
             ]
         }
     ]
+}, 
+
+{
+
+   "id":11,
+
+   "name":"Vršovický skanzen",
+    picSource: "https://cs.m.wikipedia.org/wiki/Vr%C5%A1ovick%C3%BD_skanzen",
+   pic: "skanzen.png", 
+   "longDescription":"Jedná se o soubor tří malých nenápadných domků ze začátku a poloviny 19. století. Nachází se v Praze - Vršovicích, schované v obležení novější zástavby mezi stromy na břehu Botiče. Jejich unikátnost spočívá v tom, že se jedná o poslední zbytky staré zástavby Vršovic, z doby kdy Vršovice byly jen malou vesnicí poblíž Prahy. Domky si uchovávají původní vzhled. Dnes tu sídlí několik firem a soukromá mateřská škola, veřejnosti jsou tudíž nepřístupné",
+
+   "shortDescription":"Vršovice, Praha 10",
+
+   "coords":"50.0682181N, 14.4528239E",
+
+   "sources":[
+
+      "http://etp.cz/site/skanzen/"
+
+   ],
+   "traffic":[
+      {
+         "method":"Tramvaj",
+         "ways":[
+            {
+               "lines":[
+                  "4",
+                  "13",
+                  "22"
+               ],
+               "stop":"Vršovické náměstí",
+               "distance":"4 minut pěšky"
+            },
+            {
+               "lines":[
+                  "6",
+                  "7",
+                  "19"
+               ],
+               "stop":"Bohemians",
+               "distance":"8 minut pěšky"
+            },
+            {
+               "lines":[
+                  "6",
+                  "7",
+                  "19"
+               ],
+               "stop":"Nádraží Vršovice",
+               "distance":"10 minut pěšky"
+            }
+         ]
+      },
+      {
+         "method":"Autobus",
+         "ways":[
+            {
+               "lines":[
+                  "124",
+                  "139"
+               ],
+               "stop":"Bohemians",
+               "distance":"8 minut pěšky"
+            },
+            {
+               "lines":[
+                  "193"
+               ],
+               "stop":"Nádraží Vršovice",
+               "distance":"10 minut pěšky"
+            }
+         ]
+      },
+      {
+        method: "Vlak",
+        ways: [
+          {
+            "stop": "Praha, Vršovice",
+            lines: ["S8", "S9", "S88", "R17", "R49"],
+            distance: "12 minut pěšky"
+          }
+        ]
+      }
+   ]
 }
-];
 
-
+]
