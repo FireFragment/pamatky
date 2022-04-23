@@ -613,6 +613,14 @@ var pamatky = [
    ],
    "pic":"jitrenka.png",
    "picSource":"https://psnkupuje.cz/clanek-blogu/vila-jitrenka"
+},
+
+{
+    "id": 13,
+    "name":"Místodržitelský letohrádek ","coords":"50.1046083N, 14.4142194E","shortDescription":"Praha 7","longDescription":"Lovecký letohrádek byl založen roku 1495 Vladislavem Jagellonským, a stejně jako obora (dnes Stromovka) patřil pod správu Pražského hradu. Za Rudolfa II. byl renesančně přestavěn, a v 17. Století byl spojen s Pražským hradem alejí. Ta byla později vykácena, ale znovu vysazena, a dnes můžeme vidět ulici Pod Kaštany. Na počátku 19. Století proběhla neogotická rekonstrukce. Roku 1849 byl císařem propůjčen místodržitelům, podle nichž získal název. Od roku 1945 dodnes slouží národnímu muzeu. Veřejnosti je tedy nepřístupný. Stojí na kraji parku Stromovka a skýtá se zde krásný výhled na sever Prahy. ","traffic":[{"method":"Tramvaj","ways":[{"stop":"Sparta","distance":"13 minut pěšky","lines":["1","8","12","25","26"]},{"stop":"Hradčanská","distance":"18 minut pěšky (pod kaštanovou alejí)","lines":["1","2","8","12","18","20","25","26"]},{"stop":"Výstaviště","distance":"25 minut pěšky (skrz Stromovku)","lines":["6","12","17"]}]},{"method":"Metro","ways":[{"stop":"Hradčanská","distance":"18 minut pěšky (pod kaštanovou alejí)","lines":["A"]}]},{"method":"Autobus","ways":[{"stop":"Hradčanská","distance":"17 minut pěšky","lines":["131"]}]}],"sources":["Místodržitelský letohrádek – Wikipedie (wikipedia.org) "],
+
+   "pic":"mistodrzitel.jpeg"
+
 }
 
 ]
