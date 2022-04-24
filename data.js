@@ -631,18 +631,20 @@ var pamatky = [
 
 {"name":"Statek Vraných v Bohnicích","coords":"50.1335269N, 14.4153333E","shortDescription":"Praha 8, Bohnice","longDescription":"Jedná se o barokní statek v centru památkové rezervace starých Bohnic s číslem popisným 1, postavený před rokem 1777. Byl několikrát rekonstruován, tudíž je dobře zachovalý. V současné době je centrem kulturních akcí. ","traffic":[{"method":"Autobus","ways":[{"stop":"Staré Bohnice","distance":"Přímo před statkem","lines":["236"]},{"stop":"Zhořelecká","distance":"8 minut pěšky","lines":["102","177","200","202","235","236"]}]}],"sources":["Statek Vraných – Wikipedie (wikipedia.org) "],
     id: 15,
-    pic: "bohnice-statek"
+    pic: "bohnice.jpeg",
+    picSource: "Kudy z nudy"
 },
 
 {"name":"Zřícenina Baba","coords":"50.1188228N, 14.3906494E","shortDescription":"Praha 6, Dejvice","longDescription":"Dříve krásný letohrádek s vinicí, dnes zřícenina poničená vandaly. Návrší bylo osídleno již v mladší době kamenné. Roku 1622 zde byla založena vinice, a o 28 let později letohrádek. Během válek o rakouské dědictví v 40. letech 18. Století byl pobořen. O cca století později byla zřícenina romanticky upravena jako napodobenina hradní zříceniny. Dnes je toto místo volně přístupné, a skýtá nádherný výhled na Prahu. Je to také ideální cíl cyklovýletu. ","traffic":[{"method":"Autobus","ways":[{"stop":"U Matěje","distance":"20 minut pěšky","lines":["131","216"]},{"stop":"Sídliště Baba","distance":"8 minut pěšky","lines":["216"]}]}],"sources":["https://cs.wikipedia.org/wiki/Baba_(z%C5%99%C3%ADcenina)#cite_note-aktualita-4"],
     id: 16,
-    pic: ""
+    pic: "baba.jpeg",
+    picSource: "Wikimedia Commons"
 },
 
 {"name":"Vesnická památková zona Střešovičky","coords":"50.0890467N, 14.3718325E","shortDescription":"Praha 6, Střešovice","longDescription":"Bývalá dělnická kolonie je dnes unikátní v rámci celé Prahy. Obklopeny novější zástavbou můžete ve Střešovicích najít malé domečky přitisklé na skály, dlážděné ulice a úplně jinou atmosféru než ve zbytku velkoměsta. Nejzachovalejší vesnická památková zona v Praze. ","traffic":[{"method":"Autobus","ways":[{"stop":"Náměstí před Bateriemi","distance":"5 minut pěšky","lines":["108","216"]},{"stop":"Kajetánka","distance":"5 minut pěšky","lines":["180"]}]}],"sources":["https://www.prahaneznama.cz/praha-6/stresovice/stresovicky/"],
     id: 17,
     pic: "strsovicky"
-}
+},
 {
     id: 18,
     pic: "kajetanka",
