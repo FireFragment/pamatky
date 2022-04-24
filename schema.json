@@ -1,0 +1,76 @@
+{
+  "title": "Památky",
+  "type": "array",
+  "items": {
+    "title": "Památka",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Jméno"
+      },
+      "shortDescription": {
+        "type": "string",
+        "title": "Stručné umístění",
+        "description": "např. Kyje, Praha 14"
+      },
+      "coords": {
+        "type": "string",
+        "title": "Zeměpisné souřadnice"
+      },
+      "sources": {
+        "type": "array",
+        "format": "table",
+        "title": "Zdroje",
+        "uniqueItems": true,
+        "items": {
+          "type": "string",
+          "title": "Zdroj"
+        }
+      },
+      "traffic": {
+        "type": "array",
+        "title": "Doprava",
+        "items": {
+          "type": "object",
+          "title": "Dopravní prostředek",
+          "properties": {
+            "method": {
+              "type": "string",
+              "title": "Prostředek"
+            },
+            "ways": {
+              "type": "array",
+              "title": "Zastávky",
+              "items": {
+                "type": "object",
+                "title": "Zastávka",
+                "properties": {
+                  "stop": {
+                    "type": "string",
+                    "title": "Název zastávky"
+                  },
+                  "distance": {
+                    "type": "string",
+                    "title": "Vzdálenost od památky",
+
+                    "description": "např. \"5 minut pěšky\" nebo \"Přímo u kostela\""
+                  },
+                  "lines": {
+                    "type": "array",
+                    "format": "table",
+                    "title": "Linky",
+                    "items": {
+                        "type": "string",
+                        "title": "Linka"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
