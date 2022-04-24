@@ -643,6 +643,14 @@ var pamatky = [
     id: 17,
     pic: "strsovicky"
 }
+{
+    id: 18,
+    pic: "kajetanka",
+    "name":"Kajetánka","coords":"50.0879564N, 14.3736719E","shortDescription":"Praha 6, Břevnov","longDescription":"Nejprve to byl viniční dvorec v majetku rodiny Martiniců. Roku 1666 zde majitel nechal postavit kapli a klášter, které věnoval řádu Theatinů/Kajetánů, podle nichž dostala usedlost název. Poté co se řád Kajetánů přesídlil na Hradčany, začal areál chátrat a roku 1783 byl klášter zrušen. V 18. se ze stavby díky přestavbě stal malý zámeček. V 19. století se dostal do majetku rodu Kouniců, kteří zde zřídili anglickou zahradu. Za komunismu zde byl dům pionýrů a mládeže. Dnes je po rekonstrukci ve výborném stavu, je možné zde navštívit restauraci obklopenou parkem a rybníčkem. ","traffic":[{"method":"Autobus","ways":[{"stop":"Kajetánka","distance":"4 minuty pěšky","lines":["180"]},{"stop":"Náměstí před Bateriemi","distance":"6 minut pěšky","lines":["108","216"]}]},{"method":"Tramvaj","ways":[{"stop":"Marjánka","distance":"8 minut pěšky","lines":["22","25"]}]}],"sources":["https://cs.wikipedia.org/wiki/Kajet%C3%A1nka","https://vilakajetanka.cz/cz/"]},
 
+    {
+        id: 19,
+        pic: "allottinka",
+        "name":"Kaple Panny Marie Allöttinské ","coords":"50.0876444N, 14.3755381E","shortDescription":"Praha 6, Břevnov","longDescription":"Kaple byla postavena roku 1666 majitelem usedlosti Kajetánka, a darována řádu Kajetánů. Postupně se z ní stalo známé poutní místo, které navštívil i císař Leopold I. v roce 1672. Kaple byla v majetku řádu do roku 1783. Poté byla filiálkou kostela v Šárce. V roce 1814 byla rekonstruována. Pak přešla do vlastnictví hraběnky Kounicové, která nechala část kaple zbourat, ale naštěstí se ji podařilo uchránit před úplnou demolicí. Od té doby postupně chátrá, až do dnešních dní. Vnitřní prostory jsou uzamčeny, krypta zaplavena. ","traffic":[{"method":"Tramvaj","ways":[{"stop":"Marjánka","distance":"10 minut pěšky","lines":["22","25"]},{"stop":"Malovanka","distance":"10 minut pěšky","lines":["22","25"]}]},{"method":"Autobus","ways":[{"stop":"Kajetánka","distance":"5 minut pěšky","lines":["180"]},{"stop":"Pod Královkou","distance":"6 minut pěšky","lines":["149"]}]}],"sources":["https://cs.wikipedia.org/wiki/Kaple_Panny_Marie_Alt%C3%B6ttinsk%C3%A9_(Praha)"]}
 
-    ]
+]
