@@ -621,6 +621,28 @@ var pamatky = [
 
    "pic":"mistodrzitel.jpeg"
 
+},
+
+{"name":"Vila Bertramka","coords":"50.0703789N, 14.3951786E","shortDescription":"Praha 5, Smíchov","longDescription":"Jedná se o bývalou viniční usedlost na pražském Smíchově z poloviny 18. Století. Jméno má po jednom z několika minulých majitelů, Františkovi z Bertramu. Ke konci 18. Století zde žili manželé Duškovi, které navštívil několikrát W. A. Mozart, a jimž je zde věnováno muzeum. V roce 1873 byla usedlost přestavěna. Okolní vinice byly přeměněny na dodnes přístupný park. Dnes je ve vlastnictví Mozartovy obce. ","traffic":[{"method":"Metro","ways":[{"stop":"Anděl","distance":"16 minut pěšky","lines":["B"]}]},{"method":"Tramvaj","ways":[{"stop":"Bertramka","distance":"10 minut pěšky","lines":["9","10","15","16"]},{"stop":"Anděl","distance":"16 minut pěšky","lines":["4","5","7","9","10","12","15","16","20","21"]}]},{"method":"Autobus","ways":[{"stop":"Mrázovka","distance":"4 minuty pěšky","lines":["153"]},{"stop":"Malvazinky","distance":"12 minut pěšky","lines":["137","153"]},{"stop":"Ženské domovy - pouze ve směru Na knížecí","distance":"12 minut pěšky","lines":["137"]},{"stop":"Anděl","distance":"15 minut pěšky","lines":["123","167","191"]}]}],"sources":["Bertramka – Wikipedie (wikipedia.org) "],
+
+    "pic": "bertramka",
+    "id": 14
+},
+
+{"name":"Statek Vraných v Bohnicích","coords":"50.1335269N, 14.4153333E","shortDescription":"Praha 8, Bohnice","longDescription":"Jedná se o barokní statek v centru památkové rezervace starých Bohnic s číslem popisným 1, postavený před rokem 1777. Byl několikrát rekonstruován, tudíž je dobře zachovalý. V současné době je centrem kulturních akcí. ","traffic":[{"method":"Autobus","ways":[{"stop":"Staré Bohnice","distance":"Přímo před statkem","lines":["236"]},{"stop":"Zhořelecká","distance":"8 minut pěšky","lines":["102","177","200","202","235","236"]}]}],"sources":["Statek Vraných – Wikipedie (wikipedia.org) "],
+    id: 15,
+    pic: "bohnice-statek"
+},
+
+{"name":"Zřícenina Baba","coords":"50.1188228N, 14.3906494E","shortDescription":"Praha 6, Dejvice","longDescription":"Dříve krásný letohrádek s vinicí, dnes zřícenina poničená vandaly. Návrší bylo osídleno již v mladší době kamenné. Roku 1622 zde byla založena vinice, a o 28 let později letohrádek. Během válek o rakouské dědictví v 40. letech 18. Století byl pobořen. O cca století později byla zřícenina romanticky upravena jako napodobenina hradní zříceniny. Dnes je toto místo volně přístupné, a skýtá nádherný výhled na Prahu. Je to také ideální cíl cyklovýletu. ","traffic":[{"method":"Autobus","ways":[{"stop":"U Matěje","distance":"20 minut pěšky","lines":["131","216"]},{"stop":"Sídliště Baba","distance":"8 minut pěšky","lines":["216"]}]}],"sources":["https://cs.wikipedia.org/wiki/Baba_(z%C5%99%C3%ADcenina)#cite_note-aktualita-4"],
+    id: 16,
+    pic: ""
+},
+
+{"name":"Vesnická památková zona Střešovičky","coords":"50.0890467N, 14.3718325E","shortDescription":"Praha 6, Střešovice","longDescription":"Bývalá dělnická kolonie je dnes unikátní v rámci celé Prahy. Obklopeny novější zástavbou můžete ve Střešovicích najít malé domečky přitisklé na skály, dlážděné ulice a úplně jinou atmosféru než ve zbytku velkoměsta. Nejzachovalejší vesnická památková zona v Praze. ","traffic":[{"method":"Autobus","ways":[{"stop":"Náměstí před Bateriemi","distance":"5 minut pěšky","lines":["108","216"]},{"stop":"Kajetánka","distance":"5 minut pěšky","lines":["180"]}]}],"sources":["https://www.prahaneznama.cz/praha-6/stresovice/stresovicky/"],
+    id: 17,
+    pic: "strsovicky"
 }
 
-]
+
+    ]
