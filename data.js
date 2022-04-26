@@ -621,6 +621,45 @@ var pamatky = [
 
    "pic":"mistodrzitel.jpeg"
 
-}
+},
+
+{"name":"Vila Bertramka","coords":"50.0703789N, 14.3951786E","shortDescription":"Praha 5, Smíchov","longDescription":"Jedná se o bývalou viniční usedlost na pražském Smíchově z poloviny 18. Století. Jméno má po jednom z několika minulých majitelů, Františkovi z Bertramu. Ke konci 18. Století zde žili manželé Duškovi, které navštívil několikrát W. A. Mozart, a jimž je zde věnováno muzeum. V roce 1873 byla usedlost přestavěna. Okolní vinice byly přeměněny na dodnes přístupný park. Dnes je ve vlastnictví Mozartovy obce. ","traffic":[{"method":"Metro","ways":[{"stop":"Anděl","distance":"16 minut pěšky","lines":["B"]}]},{"method":"Tramvaj","ways":[{"stop":"Bertramka","distance":"10 minut pěšky","lines":["9","10","15","16"]},{"stop":"Anděl","distance":"16 minut pěšky","lines":["4","5","7","9","10","12","15","16","20","21"]}]},{"method":"Autobus","ways":[{"stop":"Mrázovka","distance":"4 minuty pěšky","lines":["153"]},{"stop":"Malvazinky","distance":"12 minut pěšky","lines":["137","153"]},{"stop":"Ženské domovy - pouze ve směru Na knížecí","distance":"12 minut pěšky","lines":["137"]},{"stop":"Anděl","distance":"15 minut pěšky","lines":["123","167","191"]}]}],"sources":["Bertramka – Wikipedie (wikipedia.org) "],
+
+    "pic": "bertramka.JPG",
+    picSource: "Wikimedia Commons",
+    "id": 14
+},
+
+{"name":"Statek Vraných v Bohnicích","coords":"50.1335269N, 14.4153333E","shortDescription":"Praha 8, Bohnice","longDescription":"Jedná se o barokní statek v centru památkové rezervace starých Bohnic s číslem popisným 1, postavený před rokem 1777. Byl několikrát rekonstruován, tudíž je dobře zachovalý. V současné době je centrem kulturních akcí. ","traffic":[{"method":"Autobus","ways":[{"stop":"Staré Bohnice","distance":"Přímo před statkem","lines":["236"]},{"stop":"Zhořelecká","distance":"8 minut pěšky","lines":["102","177","200","202","235","236"]}]}],"sources":["Statek Vraných – Wikipedie (wikipedia.org) "],
+    id: 15,
+    pic: "bohnice.jpeg",
+    picSource: "Kudy z nudy"
+},
+
+{"name":"Zřícenina Baba","coords":"50.1188228N, 14.3906494E","shortDescription":"Praha 6, Dejvice","longDescription":"Dříve krásný letohrádek s vinicí, dnes zřícenina poničená vandaly. Návrší bylo osídleno již v mladší době kamenné. Roku 1622 zde byla založena vinice, a o 28 let později letohrádek. Během válek o rakouské dědictví v 40. letech 18. Století byl pobořen. O cca století později byla zřícenina romanticky upravena jako napodobenina hradní zříceniny. Dnes je toto místo volně přístupné, a skýtá nádherný výhled na Prahu. Je to také ideální cíl cyklovýletu. ","traffic":[{"method":"Autobus","ways":[{"stop":"U Matěje","distance":"20 minut pěšky","lines":["131","216"]},{"stop":"Sídliště Baba","distance":"8 minut pěšky","lines":["216"]}]}],"sources":["https://cs.wikipedia.org/wiki/Baba_(z%C5%99%C3%ADcenina)#cite_note-aktualita-4"],
+    id: 16,
+    pic: "baba.jpeg",
+    picSource: "Wikimedia Commons"
+},
+
+{"name":"Vesnická památková zona Střešovičky","coords":"50.0890467N, 14.3718325E","shortDescription":"Praha 6, Střešovice","longDescription":"Bývalá dělnická kolonie je dnes unikátní v rámci celé Prahy. Obklopeny novější zástavbou můžete ve Střešovicích najít malé domečky přitisklé na skály, dlážděné ulice a úplně jinou atmosféru než ve zbytku velkoměsta. Nejzachovalejší vesnická památková zona v Praze. ","traffic":[{"method":"Autobus","ways":[{"stop":"Náměstí před Bateriemi","distance":"5 minut pěšky","lines":["108","216"]},{"stop":"Kajetánka","distance":"5 minut pěšky","lines":["180"]}]}],"sources":["https://www.prahaneznama.cz/praha-6/stresovice/stresovicky/"],
+    id: 17,
+    pic: "stresovicky.jpeg"
+},
+{
+    id: 18,
+    pic: "kajetanka.jpeg",
+    "name":"Kajetánka","coords":"50.0879564N, 14.3736719E","shortDescription":"Praha 6, Břevnov","longDescription":"Nejprve to byl viniční dvorec v majetku rodiny Martiniců. Roku 1666 zde majitel nechal postavit kapli a klášter, které věnoval řádu Theatinů/Kajetánů, podle nichž dostala usedlost název. Poté co se řád Kajetánů přesídlil na Hradčany, začal areál chátrat a roku 1783 byl klášter zrušen. V 18. se ze stavby díky přestavbě stal malý zámeček. V 19. století se dostal do majetku rodu Kouniců, kteří zde zřídili anglickou zahradu. Za komunismu zde byl dům pionýrů a mládeže. Dnes je po rekonstrukci ve výborném stavu, je možné zde navštívit restauraci obklopenou parkem a rybníčkem. ","traffic":[{"method":"Autobus","ways":[{"stop":"Kajetánka","distance":"4 minuty pěšky","lines":["180"]},{"stop":"Náměstí před Bateriemi","distance":"6 minut pěšky","lines":["108","216"]}]},{"method":"Tramvaj","ways":[{"stop":"Marjánka","distance":"8 minut pěšky","lines":["22","25"]}]}],"sources":["https://cs.wikipedia.org/wiki/Kajet%C3%A1nka","https://vilakajetanka.cz/cz/"]},
+
+    {
+        id: 19,
+        pic: "maruska.jpeg",
+        "name":"Kaple Panny Marie Allöttinské ","coords":"50.0876444N, 14.3755381E","shortDescription":"Praha 6, Břevnov","longDescription":"Kaple byla postavena roku 1666 majitelem usedlosti Kajetánka, a darována řádu Kajetánů. Postupně se z ní stalo známé poutní místo, které navštívil i císař Leopold I. v roce 1672. Kaple byla v majetku řádu do roku 1783. Poté byla filiálkou kostela v Šárce. V roce 1814 byla rekonstruována. Pak přešla do vlastnictví hraběnky Kounicové, která nechala část kaple zbourat, ale naštěstí se ji podařilo uchránit před úplnou demolicí. Od té doby postupně chátrá, až do dnešních dní. Vnitřní prostory jsou uzamčeny, krypta zaplavena. ","traffic":[{"method":"Tramvaj","ways":[{"stop":"Marjánka","distance":"10 minut pěšky","lines":["22","25"]},{"stop":"Malovanka","distance":"10 minut pěšky","lines":["22","25"]}]},{"method":"Autobus","ways":[{"stop":"Kajetánka","distance":"5 minut pěšky","lines":["180"]},{"stop":"Pod Královkou","distance":"6 minut pěšky","lines":["149"]}]}],"sources":["https://cs.wikipedia.org/wiki/Kaple_Panny_Marie_Alt%C3%B6ttinsk%C3%A9_(Praha)"]},
+
+    {
+        id: 20,
+        pic: "hostivar.jpeg",
+        picSource: "Praha neznámá",
+        "name":"Vesnická památková rezervace Hostivař","coords":"50.0489067N, 14.5243986E","shortDescription":"Praha 15, Hostivař","longDescription":"Katastr obce je nepřetržitě osídlen od mladší doby kamenné, vesnice je tudíž jednou z nejstarších v Praze. Roku 1922 byl Hostivař připojen k Praze. V 70. letech minulého století byla velká část zbourána, a nahrazena panelovými domy. I tak se ale střední část se starobylou atmosférou dochovala dodnes. Mezi dominanty rezervace patří Kostel Stětí sv. Jana Křtitele a Toulcův dvůr. ","traffic":[{"method":"Tramvaj","ways":[{"stop":"Na Groši","distance":"","lines":["22","26"]},{"stop":"Hostivařská","distance":"","lines":["22","26"]}]},{"method":"Autobus","ways":[{"stop":"Na Groši","distance":"","lines":["154","175","181","182","254"]},{"stop":"Hostivařská","distance":"","lines":["154","175","181","182","254"]},{"stop":"Hostivařské náměstí","distance":"","lines":["177","181","182"]},{"stop":"Selská","distance":"","lines":["177","181","182","254"]},{"stop":"Toulcův dvůr","distance":"","lines":["177","254"]}]}],"sources":["https://www.prahaneznama.cz/praha-10/hostivar/stara-hostivar-historie-a-statky/","https://cs.wikipedia.org/wiki/Hostiva%C5%99"]}
 
 ]
