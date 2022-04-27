@@ -312,7 +312,7 @@ var pamatky = [
                     lines: ["B"],
                     stop: "Stodůlky",
                     distance: "33 minut pěšky"
-                }                
+                }
             ]
         },
         {
@@ -327,7 +327,7 @@ var pamatky = [
                     lines: [194, 902],
                     stop: "Třebonice",
                     distance: "18 minut pěšky"
-                }     
+                }
             ]
         }
     ]
@@ -351,7 +351,7 @@ var pamatky = [
                     lines: ["B"],
                     stop: "Stodůlky",
                     distance: "33 minut pěšky"
-                }                
+                }
             ]
         },
         {
@@ -366,7 +366,7 @@ var pamatky = [
                     lines: [194, 902],
                     stop: "Třebonice",
                     distance: "18 minut pěšky"
-                }     
+                }
             ]
         }
     ]
@@ -394,7 +394,7 @@ var pamatky = [
                     lines: ["C"],
                     stop: "Budějovická",
                     distance: "10 minut pěšky"
-                }                
+                }
             ]
         },
         {
@@ -404,7 +404,7 @@ var pamatky = [
                     lines: [121, 124, 134, 193, 904],
                     stop: "Antala Staška",
                     distance: "6 minut pěšky"
-                } 
+                }
             ]
         }
     ]
@@ -428,7 +428,7 @@ var pamatky = [
                     lines: ["B"],
                     stop: "Stodůlky",
                     distance: "10 minut pěšky"
-                }                
+                }
             ]
         },
         {
@@ -438,11 +438,11 @@ var pamatky = [
                     lines: [137, 174, 266, 902],
                     stop: "Kovářova-KD Mlejn",
                     distance: "9 minut pěšky"
-                } 
+                }
             ]
         }
     ]
-}, 
+},
 
 {
 
@@ -450,7 +450,7 @@ var pamatky = [
 
    "name":"Vršovický skanzen",
     picSource: "https://cs.m.wikipedia.org/wiki/Vr%C5%A1ovick%C3%BD_skanzen",
-   pic: "skanzen.png", 
+   pic: "skanzen.png",
    "longDescription":"Jedná se o soubor tří malých nenápadných domků ze začátku a poloviny 19. století. Nachází se v Praze - Vršovicích, schované v obležení novější zástavby mezi stromy na břehu Botiče. Jejich unikátnost spočívá v tom, že se jedná o poslední zbytky staré zástavby Vršovic, z doby kdy Vršovice byly jen malou vesnicí poblíž Prahy. Domky si uchovávají původní vzhled. Dnes tu sídlí několik firem a soukromá mateřská škola, veřejnosti jsou tudíž nepřístupné",
 
    "shortDescription":"Vršovice, Praha 10",
@@ -660,6 +660,29 @@ var pamatky = [
         id: 20,
         pic: "hostivar.jpeg",
         picSource: "Praha neznámá",
-        "name":"Vesnická památková rezervace Hostivař","coords":"50.0489067N, 14.5243986E","shortDescription":"Praha 15, Hostivař","longDescription":"Katastr obce je nepřetržitě osídlen od mladší doby kamenné, vesnice je tudíž jednou z nejstarších v Praze. Roku 1922 byl Hostivař připojen k Praze. V 70. letech minulého století byla velká část zbourána, a nahrazena panelovými domy. I tak se ale střední část se starobylou atmosférou dochovala dodnes. Mezi dominanty rezervace patří Kostel Stětí sv. Jana Křtitele a Toulcův dvůr. ","traffic":[{"method":"Tramvaj","ways":[{"stop":"Na Groši","distance":"","lines":["22","26"]},{"stop":"Hostivařská","distance":"","lines":["22","26"]}]},{"method":"Autobus","ways":[{"stop":"Na Groši","distance":"","lines":["154","175","181","182","254"]},{"stop":"Hostivařská","distance":"","lines":["154","175","181","182","254"]},{"stop":"Hostivařské náměstí","distance":"","lines":["177","181","182"]},{"stop":"Selská","distance":"","lines":["177","181","182","254"]},{"stop":"Toulcův dvůr","distance":"","lines":["177","254"]}]}],"sources":["https://www.prahaneznama.cz/praha-10/hostivar/stara-hostivar-historie-a-statky/","https://cs.wikipedia.org/wiki/Hostiva%C5%99"]}
+        "name":"Vesnická památková rezervace Hostivař","coords":"50.0489067N, 14.5243986E","shortDescription":"Praha 15, Hostivař","longDescription":"Katastr obce je nepřetržitě osídlen od mladší doby kamenné, vesnice je tudíž jednou z nejstarších v Praze. Roku 1922 byl Hostivař připojen k Praze. V 70. letech minulého století byla velká část zbourána, a nahrazena panelovými domy. I tak se ale střední část se starobylou atmosférou dochovala dodnes. Mezi dominanty rezervace patří Kostel Stětí sv. Jana Křtitele a Toulcův dvůr. ","traffic":[{"method":"Tramvaj","ways":[{"stop":"Na Groši","distance":"","lines":["22","26"]},{"stop":"Hostivařská","distance":"","lines":["22","26"]}]},{"method":"Autobus","ways":[{"stop":"Na Groši","distance":"","lines":["154","175","181","182","254"]},{"stop":"Hostivařská","distance":"","lines":["154","175","181","182","254"]},{"stop":"Hostivařské náměstí","distance":"","lines":["177","181","182"]},{"stop":"Selská","distance":"","lines":["177","181","182","254"]},{"stop":"Toulcův dvůr","distance":"","lines":["177","254"]}]}],"sources":["https://www.prahaneznama.cz/praha-10/hostivar/stara-hostivar-historie-a-statky/","https://cs.wikipedia.org/wiki/Hostiva%C5%99"]},
+
+
+{ // OK
+        id: 21,pic: "7.png","name":"Dvůr Háje","coords":"50.0603169N, 14.3178208E","shortDescription":"Praha 13","longDescription":"Rozsáhlý areál dvora Háje obsahuje jednu obytnou budovou, bránu a pětici hospodářských budov. Založen byl počátkem 19. století a sloužil jako statek, než ve 30. letech 19. století dvůr koupil průmyslník a bankéř rytíř Leopold Lämmel, který předělal dvůr Háje na letní sídlo pro sebe i svoji rodinu. Po skončení druhé světové války část dvora sloužila jako skladiště, dnes je celý dvůr Háje v průběhu rekonstrukce.","traffic":[{"method":"Tramvaj","ways":[{"stop":"Hlušičkova","distance":"20 minut pěšky","lines":["4","9","10","15","16","98","99"]}]},{"method":"Autobus","ways":[{"stop":"Hlušičkova","distance":"20 minut pěšky","lines":["180","304","380"]},{"stop":"Bílý Beránek","distance":"17 minut pěšky","lines":["225","304","380"]},{"stop":"Za Mototechnou","distance":"14 minut pěšky","lines":["168"]}]}],"sources":["https://pamatkovykatalog.cz/dvur-haje-13282203","https://www.hrady.cz/palac-dum-hajci-dvur","https://www.propamatky.info/images/original/cl_gal_4226_982432_1.jpg"]},
+
+{
+        id: 22,pic: "6.png", "name":"Kostel Všech svatých","coords":"50.0195428N, 14.3544633E","shortDescription":"Praha 5-Slivenec","longDescription":"Poté, co Slivenec dostal 6. dubna 1253 do vlastnictví od krále Václava I. řád křižovníků s červenou hvězdou, tak zde ještě ve 13. století nechal tento řád postavit raně gotický kostel, dnes spadající pod římskokatolickou církev. Nějakých větších úprav se kostel dočkal v roce 1693, kdy byla přistavěna předsíň, v roce 1886, kdy došlo k vestavění kůru s pořízením varhanů vyrobených J. Schiffnerem, a také roku 1889, kdy architekt Antonín Barvitius provedl úpravy na budově kostela. V téže roce byly zároveň vitráže ze 14. století s ukřižovaným Kristem, sv. Kateřinou a apoštoly (dnes uloženy v Uměleckoprůmyslovém muzeu) nahrazeny kopiemi. Kostel obsahuje jednu štíhlou věž, v jejíž báni při opravě střechy věže kostela bylo roku 1999 nalezeno pouzdro s listinami z let 1865 a 1910, seznamy členů řádu Křižovníků s červenou hvězdou, staré mince a první vydání Humoristických listů. Zajímavé na kostele je i to, že se zde nachází nejstarší známý dochovaný krov na území dnešní České republiky.","traffic":[{"method":"Autobus","ways":[{"stop":"Slivenec","distance":"2 minuty pěšky","lines":["120","130","230","951","X172"]}]}],"sources":["https://www.praha-slivenec.cz/mestska-cast-praha-slivenec/o-slivenci-a-holyni/pamatky/kostel-vsech-svatych-ve-slivenci/","https://www.hrady.cz/kostel-vsech-svatych-praha-5-slivenec/texty?tid=13603&pos=1000","https://www.duhoctrungquoc.vn/wiki/cs/Kostel_V%C5%A1ech_svat%C3%BDch_(Slivenec)","https://www.krestanskevanoce.cz/kostel/1609/"]},
+
+{ // OK
+        id: 23,pic: "5.png","name":"Křižovnický dvůr","coords":"50.0195100N, 14.3534717E","shortDescription":"Praha 5-Slivenec","longDescription":"Slivenec dostal 6. dubna 1253 do vlastnictví od krále Václava I. řád křižovníků s červenou hvězdou a ten zde roku 1666 nechal vystavět velký hospodářský dvůr, jenž dnes nese podle jména řádu název Křižovnický dvůr. Křižovníkům patřil dvůr až do 20. století, než byl předán státu, který dvůr daroval JZD. Celý dvůr začal rychle chátrat a ani po Sametové revoluci, kdy tento objekt přešel do vlastnictví Pozemkového fondu, se situace ohledně této památky nezlepšila. Památkáři i starostka Slivence podporují návrat Křižovnického dvora řádu křižovníků s červenou hvězdou, který by zde rád provozoval hospic.","traffic":[{"method":"Autobus","ways":[{"stop":"Slivenec","distance":"2 minuty pěšky","lines":["120","130","230","951","X172"]}]}],"sources":["https://mapy.cz/zakladni?x=14.3539549&y=50.0186030&z=16&source=base&id=2262007","https://ct24.ceskatelevize.cz/regiony/1436567-ve-slivenci-uz-desitky-let-chatra-byvaly-krizovnicky-dvur","https://www.pamatkovykatalog.cz/krizovnicky-dvur-13273672"]},
+
+{
+        id: 24,pic: "4.png","name":"Kostel sv. Vavřince","coords":"50.0477183N, 14.3672847E","shortDescription":"Praha 5","longDescription":"Přestože první písemná zmínka o tomto kostele na vyvýšeném místě pochází až ze 13. století, odhaduje se, že byl postaven v románském slohu už v 11. století, čemuž by ostatně mj. nasvědčoval i fakt, že okolo roku 1088 král Vratislav I. daroval vyšehradské kapitule část Butovic (vsi, ve které se kostel nachází (Butovice byly později sloučeny s Jinonicemi)) a kapituly obvykle mívaly ve vlastnictví vsi s kostelem, nebo kostel samy ve vsi postavily. Roku 1571 proběhla přestavba a rozšíření kostela, v přibližně téže době zároveň byla postavena dřevěná zvonice u kostela a vytvořen zvon Vavřinec, který svolává na bohoslužby až do dnešních dob. Dále byl kostel sv. Vavřince upravován v 18. století, dnešní podobu získal kostel převážně v roce 1894, přesto se však z původního středověkého kostela zachovala apsida z kvádříkového zdiva se dvěma dochovanými románskými okénky.","traffic":[{"method":"Metro","ways":[{"stop":"Jinonice","distance":"17 minut pěšky","lines":["B"]}]},{"method":"Autobus","ways":[{"stop":"Jinonice","distance":"17 minut pěšky","lines":["137","149","904","908"]},{"stop":"Sídliště Jinonice","distance":"12 minut pěšky","lines":["149","904"]}]}],"sources":["https://www.nockostelu.cz/kostel/235/","https://www.centrumbarrandov.cz/zivot-farnosti/historie-kostela-sv-vavrince-vjinonicich","https://pamatkovykatalog.cz/kostel-sv-vavrince-13699307"]},
+{
+        id: 25,pic: "3.png","name":"Kostel Panny Marie Vítězné","coords":"50.0760614N, 14.3221483E","shortDescription":"Praha 17","longDescription":"Po bitvě na Bílé Hoře byla na místě tohoto areálu nedaleko pláně, kde byla svedena bitva na Bílé Hoře, v letech 1622-1624 postavena kaple sv. Václava (později zasvěcená Panně Marii) i s kostnicí, už tehdy se z této kaple stalo poutní místo (poutním místem zůstává i dnes, jen roku 1785 bylo v rámci josefínských reforem na 27 let zrušeno). O pár let si zde servité začali budovat svůj klášter, jenže ho nedostavěli a nedokončený objekt tak zatím sloužíval jako hostinec. Poutní areál s kostelem Panny Marie Vítězné pak vznikl postupným rozšiřováním oné kaple v letech 1704-1730, hlavním iniciátorem tohoto rozšiřování se stal malíř a stavební podnikatel Kristián Luna. Vybudování kostelní kopule, ambitů a nárožních kaplí je pravděpodobně zásluhou Jana Blažeje Santiniho. V pozdějších dějinách, za druhé světové války tento objekt využívala Luftwaffe a v dobách komunismu byly některé budovy využívány státní policií k odposlechům zahraničních hovorů. Po Sametové revoluci přešel areál do vlastnictví benediktinům, na podzim 2007 zde vznikl klášter benediktinek. Celý areál obsahuje kostel Panny Marie Vítězné na půdorysu kříže, ambity s nárožními kaplemi a s bránami, studniční stavení, dům administrátora, kapli Božího hrobu, hospodářské budovy a sochy sv. Rocha a sv. Šebestiána. Jedná se o vynikající barokní architekturu, celý poutní areál v sobě nese symboliku protireformace a rekatolizace po bitvě na Bílé Hoře, uvnitř komplexu můžeme najít různé obrazy a jiné předměty připomínající vítězství císařských vojsk nad českými stavy.","traffic":[{"method":"Tramvaj","ways":[{"stop":"Bílá Hora","distance":"2 minuty pěšky","lines":["8","22","25","97"]}]},{"method":"Autobus","ways":[{"stop":"Bílá Hora","distance":"2 minuty pěšky","lines":["164","168","260","347","365","X22"]}]}],"sources":["https://www.kudyznudy.cz/aktivity/poutni-areal-s-kostelem-panny-marie-vitezne-na-bil","https://www.prague.eu/cs/objekt/mista/3376/poutni-misto-panny-marie-vitezne-na-bile-hore","https://www.hrady.cz/kostel-panny-marie-vitezne-na-bile-hore","https://www.pamatkovykatalog.cz/poutni-areal-s-kostelem-panny-marie-vitezne-13376539"]},
+
+{
+        id: 26,pic: "2.png","name":"Vesnická památková rezervace Ruzyně","coords":"50.0810322N, 14.3117783E","shortDescription":"Praha 6","longDescription":"Jedná se o jednu z pouze dvou vesnických památkových rezervací v Praze (tou druhou jsou potom Stodůlky). Poprvé je Ruzyně písemně zmiňována již roku 993 jako majetek Břevnovského kláštera, po husitských válkách Ruzyni spravovalo pražské purkrabství. Tato vesnická památková rezervace v sobě obsahuje různé budovy z 18. a 19. století (z dřívějších dob se bohužel nezachovaly) spojující v sobě lidové prvky i tvarosloví barokního a klasicistního architektonického projevu, které přečkaly období komunismu, kdy mnoho domů šlo k zemi a v Ruzyni místy vyrostly novostavby. Z těch budov, co tuto dobu přečkaly pak nejvýznamnějším bude patrně Kubrův statek, klasicistně upravený objekt s dřevěnou pavlačí a zděnou branou dnes fungující jako Restaurace U Rychtáře. Tuto budovu (ostatně jak již napovídá název) vlastnila rodina Kubrů, v okolí velmi významná (vlastnila např. i dnes již neexistující hostinec Bílý Beránek ve Stodůlkách). Příslušníci tohoto rodu od 18. století bývali ruzyňskými rychtáři a zároveň se jednalo o skryté evangelíky.","traffic":[{"method":"Vlak","ways":[{"stop":"Praha-Ruzyně","distance":"8 minut pěšky","lines":["S5","S45","S50","S54","R45"]}]},{"method":"Autobus","ways":[{"stop":"Staré náměstí","distance":"3 minuty pěšky","lines":["168","225"]}]}],"sources":["https://www.chatar-chalupar.cz/prazske-vesnice/","https://www.lidova-architektura.cz/ochrana-pamatky/chranena-uzemi-sidla/praha-mesto-vpr/","https://urychtare.cz/historie/","https://www.atlasceska.cz/pamatky/kubruv-statek-20452","https://urychtare.cz/wp-content/uploads/2020/08/Restaurace_severn%C3%AD_pohled-1024x683.png"]},
+
+{
+        id: 27,pic: "1.png","name":"Chuchelské lázně","coords":"50.0248633N, 14.3922886E","shortDescription":"Praha 16-Malá Chuchle","longDescription":"V současnosti již nefungující lázně obsahující šest budov s kapličkou v Malé Chuchli byly založeny někdy před rokem 1729, důvodem vzniku těchto lázní byl léčivý pramen s vysokým množstvím uhličitanu vápenatého (léčivost pramene potvrdil i rozbor složení vody provedený roku 1760 profesorem Janem Antonínem Scrinci), léčení potom spočívalo v koupelích a pitných kúrách. Pro nemocné i poutníky se tak Chuchelské lázně staly vyhledávaným místem a jejich pověst se dostala i do zahraničí. Největší slávu lázně zažily během devatenáctého století, poté již postupně upadaly. ","traffic":[{"method":"Autobus","ways":[{"stop":"Malá Chuchle","distance":"7 minut pěšky","lines":["129","172","241","244","318","907"]}]}],"sources":["https://pamatkovykatalog.cz/chuchelske-lazne-15659014","https://www.chuchle.cz/pamatky.html","https://www.dohaje.cz/stezky/49/522","https://iispp.npu.cz/mis_public/preview.htm?id=96284"]},
+
+        {id: 28,pic: "8.png","name":"Maškův mlýn","coords":"49.9987956N, 14.3175214E","shortDescription":"Praha 13-Řeporyje","longDescription":"Barokně postavený Maškův mlýn je poprvé zmiňován již za Třicetileté války. Ve mlýně se v době své historie vystřídalo mnoho příjmení, známá jsou tato: Brejcha, Urban, Kozák, Stočes a Mašek. V mlýně se přestalo mlít roku 1950 a od té doby chátrá. I přes jeho stav se však jedná o dost zajímavou stavbu.\n","traffic":[{"method":"Autobus","ways":[{"stop":"Maškův mlýn","distance":"2 minuty pěšky","lines":["246"]}]}],"sources":["https://www.vodnimlyny.cz/mlyny/objekty/detail/396-maskuv-spackuv-mlyn-zadni-masek","https://pamatkovykatalog.cz/maskuv-vodni-mlyn-15730053","https://upload.wikimedia.org/wikipedia/commons/f/f9/Zadn%C3%AD_Kopanina_-_Ma%C5%A1k%C5%AFv_ml%C3%BDn_%28K_Zadn%C3%AD_Kopanin%C4%9B_30%29_%282%29.jpg"]}
 
 ]
